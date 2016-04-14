@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StringDateTime>Tuesday, March 07, 2006 7:23:34 AM</StringDateTime>
+  <MachineName>9MS6F61</MachineName>
+  <UserName>wlasiewicz</UserName>
+  <LogEntryCollection>
+    <LogEntry Type="Information">
+      <Message>Remove server="9MS6F61" database="BizTalkMgmtDb" assembly=".\files\CLC.Biztalk.EDI.Pipelines.dll"</Message>
+    </LogEntry>
+    <LogEntry Type="Information">
+      <Message>No started orchestrations.</Message>
+    </LogEntry>
+    <LogEntry Type="Information">
+      <Message>Remove tracking profile for assembly "CLC.Biztalk.EDI.Pipelines, Version=2.0.0.0, Culture=neutral, PublicKeyToken=ae127c55d264ef9e".</Message>
+    </LogEntry>
+    <LogEntry Type="Warning">
+      <Message>Setting the pipeline reference in LO.AppSend_RL to Microsoft.BizTalk.DefaultPipelines.PassThruReceive, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.</Message>
+    </LogEntry>
+    <LogEntry Type="Warning">
+      <Message>Setting the pipeline reference in LO.ChangeTransSendIn_RL to Microsoft.BizTalk.DefaultPipelines.PassThruReceive, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.</Message>
+    </LogEntry>
+    <LogEntry Type="Warning">
+      <Message>Setting the pipeline reference in LO.ResponseIn_RL to Microsoft.BizTalk.DefaultPipelines.PassThruReceive, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.</Message>
+    </LogEntry>
+    <LogEntry Type="Warning">
+      <Message>Setting the pipeline reference in LO.BatchRetryFolderR_SP to Microsoft.BizTalk.DefaultPipelines.PassThruTransmit, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.</Message>
+    </LogEntry>
+    <LogEntry Type="Error">
+      <Message>Pipeline CLC.Biztalk.EDI.Pipelines.CL4FlatFile_Send, CLC.Biztalk.EDI.Pipelines, Version=2.0.0.0, Culture=neutral, PublicKeyToken=ae127c55d264ef9e is being referenced by Send port LO.GuaranteeRequest_SP</Message>
+    </LogEntry>
+    <LogEntry Type="Error">
+      <Message>Pipeline CLC.Biztalk.EDI.Pipelines.CL4FlatFile_Send, CLC.Biztalk.EDI.Pipelines, Version=2.0.0.0, Culture=neutral, PublicKeyToken=ae127c55d264ef9e is being referenced by Send port CLC.Biztalk.EDI.Orchestrations_2.0.1.0_CLC.Biztalk.EDI.SendGuaranteeRequest_Port_BatchRetryFolder_ae127c55d264ef9e</Message>
+    </LogEntry>
+    <LogEntry Type="Error">
+      <Message>[Microsoft.BizTalk.Deployment.DeploymentException] Could not remove one or more pipelines contained in this BizTalk assembly from the Configuration database.
+</Message>
+    </LogEntry>
+    <LogEntry Type="Error">
+      <Message>[Microsoft.BizTalk.Deployment.DeploymentException] Could not remove one or more pipelines contained in this BizTalk assembly from the Configuration database.
+</Message>
+    </LogEntry>
+  </LogEntryCollection>
+  <Summary Type="Error">
+    <Message>Command failed with 4 errors and 4 warnings.  All actions have been undone and no changes have been made.
+</Message>
+  </Summary>
+</ApplicationLog>

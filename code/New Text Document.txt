@@ -1,0 +1,7 @@
+(Not Installed) OR (REINSTALL="ALL") OR (REINSTALL><"GenUSBInstaller")
+
+(REMOVE="ALL") OR (REINSTALL="ALL") OR (REINSTALL><"GenUSBInstaller")
+
+Not Installed
+
+C:\Program Files\Novatel Wireless

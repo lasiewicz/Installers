@@ -1,0 +1,4 @@
+Registry Key to check locked files
+InstallAnywhere by Macrovision
+Viewer for Projects
+

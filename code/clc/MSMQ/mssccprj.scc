@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[MSMQ.sln]
+SCC_Aux_Path = "\\clc-vss-ip3\VSS2005"
+SCC_Project_Name = "$/CLC.NET2/Tools/MSMQ", VDFCAAAA
+
+[MSMQ.vbproj]
+SCC_Aux_Path = "\\clc-vss-ip3\VSS2005"
+SCC_Project_Name = "$/CLC.NET2/Tools/MSMQ", VDFCAAAA

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MSMQ">
+</Property><Property Name="Solution File" Value="C:\billscode\msmq\MSMQ.sln">
+</Property><Property Name="User Options File" Value="C:\billscode\msmq\MSMQ.suo">
+</Property><Property Name="Date" Value="Wednesday, March 15, 2006">
+</Property><Property Name="Time" Value="13:34 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MSMQ.sln" Description="File successfully backed up as C:\billscode\msmq\Backup\MSMQ.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MSMQ.suo" Description="File successfully backed up as C:\billscode\msmq\Backup\MSMQ.suo">
+</Event><Event ErrorLevel="0" Project="MSMQ" Source="MSMQ.vbproj" Description="Project file successfully backed up as C:\billscode\msmq\Backup\MSMQ.vbproj">
+</Event><Event ErrorLevel="0" Project="MSMQ" Source="MSMQ.vbproj.user" Description="Project user file successfully backed up as C:\billscode\msmq\Backup\MSMQ.vbproj.user">
+</Event><Event ErrorLevel="0" Project="MSMQ" Source="AssemblyInfo.vb" Description="File successfully backed up as C:\billscode\msmq\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="MSMQ" Source="Form1.vb" Description="File successfully backed up as C:\billscode\msmq\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="MSMQ" Source="Form1.resx" Description="File successfully backed up as C:\billscode\msmq\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MSMQ" Source="MSMQ.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MSMQ" Source="MSMQ.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MSMQ.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MSMQ.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MSMQ" Source="MSMQ.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
