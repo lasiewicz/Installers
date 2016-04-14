@@ -1,0 +1,216 @@
+# InstallAnywhere Localization File
+#
+# External strings for locale: English (en)
+# See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
+#     regarding mappings between the properties shown below and your InstallAnywhere
+#     project.
+#
+# External/Locale property names can take one of three forms:
+#     <ActionName>.<ReferenceID>.<ActionProperty>          (e.g., Installer.858175031081.productName)
+#     <ActionName>.<ReferenceID>.<ActionProperty>.<Index>  (e.g., Installer.858175031081.installLabels.01)
+#         - where the <ActionProperty> is a Vector and the <Index> represents the place within the
+#           Vector where the value of the property should be inserted
+#     _ia.<SomeProperty>                                   (e.g., _ia.MyCustomCodePanelProperty)
+#         - where <SomeProperty> is used as an identifier for a localized value by custom code
+#
+# External/Locale property values should be plain text strings.  Special or i18n characters
+#     that cannot be represented by ASCII characters should be written using escaped unicode.
+#     - see the utility 'native2ascii' distributed with your JDK
+#
+# Product Name: console
+# Project File: C:\classandcode\Installanywhere\console\console.iap_xml
+# Generated:    Thu Jan 10 12:36:40 PST 2008
+
+
+# AllOrFeaturesActionConsole.cc216fcda036.allDescription=Completely remove all features and components.
+AllOrFeaturesActionConsole.cc216fcda036.allDescription=Completely remove all features and components.
+
+# AllOrFeaturesActionConsole.cc216fcda036.instructions=Please choose one of the following options:
+AllOrFeaturesActionConsole.cc216fcda036.instructions=Please choose one of the following options:
+
+# AllOrFeaturesActionConsole.cc216fcda036.prompt=ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.cc216fcda036.prompt=ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+
+# AllOrFeaturesActionConsole.cc216fcda036.someDescription=Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.cc216fcda036.someDescription=Choose specific features that were installed by InstallAnywhere.
+
+# AllOrFeaturesActionConsole.cc216fcda036.stepTitle=Uninstall Options
+AllOrFeaturesActionConsole.cc216fcda036.stepTitle=Uninstall Options
+
+# Billboard.cc216fdda03a.imageName=billboard_default.png
+Billboard.cc216fdda03a.imageName=billboard_default.png
+
+# Billboard.cc216fdda03a.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+Billboard.cc216fdda03a.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+
+# CreateShortcut.78ebb1e7919a.args=
+CreateShortcut.78ebb1e7919a.args=
+
+# CreateShortcut.78ebb1e7919a.destinationName=console
+CreateShortcut.78ebb1e7919a.destinationName=console
+
+# CreateShortcut.78ebb1e7919a.workingDir=
+CreateShortcut.78ebb1e7919a.workingDir=
+
+# CustomizeBundlesConsole.cc216fcda037.checkInstructions=Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.cc216fcda037.checkInstructions=Check the features that you want to uninstall. Unchecked features will remain installed.
+
+# CustomizeBundlesConsole.cc216fcda037.title=Choose Product Features
+CustomizeBundlesConsole.cc216fcda037.title=Choose Product Features
+
+# CustomizeBundlesConsole.cc216fcda037.uncheckInstructions=Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.cc216fcda037.uncheckInstructions=Uncheck the features that you want to uninstall. Checked features will remain installed.
+
+# InstallBundle.cc216fcda03a.bundleName=Application
+InstallBundle.cc216fcda03a.bundleName=Application
+
+# InstallBundle.cc216fcda03a.description=This installs the application feature.
+InstallBundle.cc216fcda03a.description=This installs the application feature.
+
+# InstallBundle.cc216feda05f.bundleName=Help
+InstallBundle.cc216feda05f.bundleName=Help
+
+# InstallBundle.cc216feda05f.description=This installs the help feature.
+InstallBundle.cc216feda05f.description=This installs the help feature.
+
+# InstallCompleteActionConsole.cc216fbea01f.message=Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.cc216fbea01f.message=Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+
+# InstallCompleteActionConsole.cc216fbea01f.title=Installation Complete
+InstallCompleteActionConsole.cc216fbea01f.title=Installation Complete
+
+# InstallDirActionConsole.cc216fbea01b.additionalText=
+InstallDirActionConsole.cc216fbea01b.additionalText=
+
+# InstallDirActionConsole.cc216fbea01b.prompt=Where would you like to install?
+InstallDirActionConsole.cc216fbea01b.prompt=Where would you like to install?
+
+# InstallDirActionConsole.cc216fbea01b.stepTitle=Choose Install Folder
+InstallDirActionConsole.cc216fbea01b.stepTitle=Choose Install Folder
+
+# Installer.cc216fbea019.installLabels.00=Installing...
+Installer.cc216fbea019.installLabels.00=Installing...
+
+# Installer.cc216fbea019.installProgressImageName=introImage.png
+Installer.cc216fbea019.installProgressImageName=introImage.png
+
+# Installer.cc216fbea019.installProgressImagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+Installer.cc216fbea019.installProgressImagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+
+# Installer.cc216fbea019.panelImageName=introImage.png
+Installer.cc216fbea019.panelImageName=introImage.png
+
+# Installer.cc216fbea019.panelImagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+Installer.cc216fbea019.panelImagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+
+# Installer.cc216fbea019.rulesFailedMessage=The installer cannot run on your configuration. It will now quit.
+Installer.cc216fbea019.rulesFailedMessage=The installer cannot run on your configuration. It will now quit.
+
+# InstallerInfoData.cc216fcda031.email=acme@acme.com
+InstallerInfoData.cc216fcda031.email=acme@acme.com
+
+# InstallerInfoData.cc216fcda031.installerName=install
+InstallerInfoData.cc216fcda031.installerName=install
+
+# InstallerInfoData.cc216fcda031.installerTitle=console
+InstallerInfoData.cc216fcda031.installerTitle=console
+
+# InstallerInfoData.cc216fcda031.productName=console
+InstallerInfoData.cc216fcda031.productName=console
+
+# InstallerInfoData.cc216fcda031.vendorName=Acme Inc
+InstallerInfoData.cc216fcda031.vendorName=Acme Inc
+
+# InstallerInfoData.cc216fcda031.vendorURL=http://www.acme.com
+InstallerInfoData.cc216fcda031.vendorURL=http://www.acme.com
+
+# InstallFailedActionConsole.cc216fbea021.message=The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n   Please see the installation log for details.  Press \"Done\" to quit the installer.
+InstallFailedActionConsole.cc216fbea021.message=The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n   Please see the installation log for details.  Press \"Done\" to quit the installer.
+
+# InstallFailedActionConsole.cc216fbea021.title=Install Complete
+InstallFailedActionConsole.cc216fbea021.title=Install Complete
+
+# InstallFrameConfigurator.cc216fcea02c.uninstallerTitle=Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.cc216fcea02c.uninstallerTitle=Uninstall $PRODUCT_NAME$
+
+# InstallSet.cc216fcda039.description=The most common application features will be installed.  This option is recommended for most users.
+InstallSet.cc216fcda039.description=The most common application features will be installed.  This option is recommended for most users.
+
+# InstallSet.cc216fcda039.imageName=typical.png
+InstallSet.cc216fcda039.imageName=typical.png
+
+# InstallSet.cc216fcda039.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+InstallSet.cc216fcda039.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+
+# InstallSet.cc216fcda039.installSetName=Typical
+InstallSet.cc216fcda039.installSetName=Typical
+
+# InstallSet.cc216fcea02d.description=Choose this option to customize the features to be installed.
+InstallSet.cc216fcea02d.description=Choose this option to customize the features to be installed.
+
+# InstallSet.cc216fcea02d.imageName=customIcon.png
+InstallSet.cc216fcea02d.imageName=customIcon.png
+
+# InstallSet.cc216fcea02d.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+InstallSet.cc216fcea02d.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+
+# InstallSet.cc216fcea02d.installSetName=Custom
+InstallSet.cc216fcea02d.installSetName=Custom
+
+# InstallSet.cc216feda060.description=Only required application features will be installed.  This option is recommended only for users with limited disk space.
+InstallSet.cc216feda060.description=Only required application features will be installed.  This option is recommended only for users with limited disk space.
+
+# InstallSet.cc216feda060.imageName=minimal.png
+InstallSet.cc216feda060.imageName=minimal.png
+
+# InstallSet.cc216feda060.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+InstallSet.cc216feda060.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+
+# InstallSet.cc216feda060.installSetName=Minimal
+InstallSet.cc216feda060.installSetName=Minimal
+
+# InstallSummaryConsole.cc216fbea01d.stepPrompt=Please Review the Following Before Continuing:
+InstallSummaryConsole.cc216fbea01d.stepPrompt=Please Review the Following Before Continuing:
+
+# InstallSummaryConsole.cc216fbea01d.title=Pre-Installation Summary
+InstallSummaryConsole.cc216fbea01d.title=Pre-Installation Summary
+
+# InstallUninstaller.cc216fdda045.destinationName=Uninstall $PRODUCT_NAME$
+InstallUninstaller.cc216fdda045.destinationName=Uninstall $PRODUCT_NAME$
+
+# IntroActionConsole.cc216fbea01a.message=InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.cc216fbea01a.message=InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+
+# IntroActionConsole.cc216fbea01a.title=Introduction
+IntroActionConsole.cc216fbea01a.title=Introduction
+
+# MakeExecutable.78ebb1d79194.destinationName=console
+MakeExecutable.78ebb1d79194.destinationName=console
+
+# ReadyToInstallActionConsole.cc216fbea01e.message=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.cc216fbea01e.message=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+
+# ReadyToInstallActionConsole.cc216fbea01e.title=Ready To Install
+ReadyToInstallActionConsole.cc216fbea01e.title=Ready To Install
+
+# ShortcutLocActionConsole.cc216fbea01c.unixPrompt=Where would you like to create links?
+ShortcutLocActionConsole.cc216fbea01c.unixPrompt=Where would you like to create links?
+
+# ShortcutLocActionConsole.cc216fbea01c.unixTitle=Choose Link Location
+ShortcutLocActionConsole.cc216fbea01c.unixTitle=Choose Link Location
+
+# UninstallCompleteActionConsole.cc216fcda038.incompleteMessage=Some items could not be removed.
+UninstallCompleteActionConsole.cc216fcda038.incompleteMessage=Some items could not be removed.
+
+# UninstallCompleteActionConsole.cc216fcda038.message=All items were successfully uninstalled.
+UninstallCompleteActionConsole.cc216fcda038.message=All items were successfully uninstalled.
+
+# UninstallCompleteActionConsole.cc216fcda038.title=Uninstall Complete
+UninstallCompleteActionConsole.cc216fcda038.title=Uninstall Complete
+
+# UninstallIntroActionConsole.cc216fcda035.message=About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere.  It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.cc216fcda035.message=About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere.  It will not remove files and folders created after the installation.
+
+# UninstallIntroActionConsole.cc216fcda035.stepTitle=Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.cc216fcda035.stepTitle=Uninstall $PRODUCT_NAME$
+

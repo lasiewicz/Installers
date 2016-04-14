@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildLog created="1/7/08 6:19:39 AM">
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 7:13:19 AM</BuildBegin>
+		<BuildEnd>1/7/08 7:13:56 AM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+				<Win32VM output="Windows" status="SUCCESS"></Win32VM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 7:30:48 AM</BuildBegin>
+		<BuildEnd>1/7/08 7:31:00 AM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 7:32:10 AM</BuildBegin>
+		<BuildEnd>1/7/08 7:32:22 AM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 12:13:24 PM</BuildBegin>
+		<BuildEnd>1/7/08 12:13:36 PM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 12:16:25 PM</BuildBegin>
+		<BuildEnd>1/7/08 12:16:40 PM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 12:20:53 PM</BuildBegin>
+		<BuildEnd>1/7/08 12:21:04 PM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 12:28:41 PM</BuildBegin>
+		<BuildEnd>1/7/08 12:28:53 PM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\Christine\source\images\test\test.iap_xml">
+		<BuildBegin>1/7/08 12:36:09 PM</BuildBegin>
+		<BuildEnd>1/7/08 12:36:22 PM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\classandcode\Installanywhere\assing\test.iap_xml">
+		<BuildBegin>1/25/08 7:04:44 AM</BuildBegin>
+		<BuildEnd>1/25/08 7:05:09 AM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+	<BuildInstance name="one" path="C:\classandcode\Installanywhere\assing\test.iap_xml">
+		<BuildBegin>1/25/08 7:15:06 AM</BuildBegin>
+		<BuildEnd>1/25/08 7:15:29 AM</BuildEnd>
+		<Script status="SUCCESS"/>
+		<InstallResources/>
+		<OtherErrors/>
+		<Installers status="SUCCESS">
+			<Platforms>
+				<Win32NoVM output="Windows" status="SUCCESS"></Win32NoVM>
+			</Platforms>
+		</Installers>
+		<BuildList/>
+	</BuildInstance>
+</BuildLog>

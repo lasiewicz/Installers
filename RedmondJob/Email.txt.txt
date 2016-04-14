@@ -1,0 +1,25 @@
+Email address:  BillL@leszynski.com
+Password:  8m55|X(z! (change your password immediately using
+MyMailboxManager)
+
+MyMailboxManager is a Web-based management tool that allows you to
+manage your mailbox settings and configure your Outlook client. 
+You can find it at: http://MyMailboxManager.com
+
+--------------------------------------------------
+MAILBOX ACCESS OPTIONS:
+--------------------------------------------------
+
+1. MICROSOFT OUTLOOK INSTALLED ON YOUR WORKSTATION
+
+To set up your Outlook client please login to MyMailboxManager and click
+on SETUP. Here, you can download an Outlook Profile Helper that will
+walk you through the Outlook client setup.  
+
+2. OUTLOOK WEB ACCESS
+
+The Web-based email client Outlook Web Access (OWA) is available at
+https://owa.intermedia.net.
+You will be asked to enter your 
+
+Kiltom1!

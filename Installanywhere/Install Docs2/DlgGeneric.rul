@@ -1,0 +1,90 @@
+function NUMBER DlgGeneric()
+BOOL	bDone;  
+HWND	hwndCtrl;
+HWND	hwndDlg; 
+SHORT	shResult;
+SHORT	shState;
+STRING	szAppDlg;
+STRING	szDlg;
+STRING	szState;
+STRING	szType;
+NUMBER	nCtrl;       
+NUMBER	nId;          
+NUMBER	nReturn;
+NUMBER	nvThisDialog;
+begin
+	bDone = FALSE;
+	szDlg = "SimpleDialog";
+	nvThisDialog = 0;
+
+	if ( MODE = SILENTMODE ) then
+		SdMakeName( szAppDlg, szDlg, "", nvThisDialog );
+		SilentReadData( szAppDlg, 
+						"DLG_CONTROL_NAME",
+						DATA_STRING,
+						szState,
+						nId ); 
+		return nId;	
+	endif;
+	
+	EzDefineDialog( szDlg,
+					ISUSER,
+					szDlg,
+					NULL );
+	//
+	// Initialize control values
+	//
+	while (!bDone)
+		nCtrl = WaitOnDialog( szDlg );
+		
+		switch( nCtrl )
+		
+		case DLG_INIT:
+			hwndDlg = CmdGetHwndDlg( szDlg );
+//			hwndCtrl = GetDlgItem( hwndDlg, DLG_CONTROL_NAME );
+			//
+			// Get and set initial states
+			//                   
+//			EnableWindow( hwndCtrl, TRUE );
+					
+		case SD_PBUT_OK:
+			//
+			// Get control states
+			// 
+			nReturn = SD_PBUT_OK;
+			bDone = TRUE;
+
+		case SD_PBUT_BACK:
+			nReturn = SD_PBUT_BACK;
+			bDone = TRUE;
+		
+		case SD_PBUT_CANCEL:
+			Do(EXIT); 
+
+		case DLG_CLOSE:
+			SdCloseDlg( hwndDlg, nId, bDone );
+
+		default:
+		// check standard handling
+			if (SdIsStdButton( nId ) && SdDoStdButton( nId )) then
+				bDone = TRUE;
+			endif;
+		
+		endswitch;
+	
+	endwhile;
+
+	EndDialog( szDlg );
+	ReleaseDialog( szDlg );
+	
+	if ( MODE = RECORDMODE ) then
+		SdMakeName( szAppDlg, szDlg, "", nvThisDialog );
+		SilentWriteData( szAppDlg,
+						 "DLG_CONTROL_NAME",
+						 DATA_STRING,
+						 szState,
+						 nId );
+	endif;
+	
+	return nReturn;
+end;
